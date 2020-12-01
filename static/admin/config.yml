@@ -18,6 +18,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "supporters"
     label: "Supporters"
+    editor:
+      preview: false
     files:
       - label: "Supporter Logos"
         name: "logos"
