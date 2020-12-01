@@ -23,13 +23,11 @@ collections:
       - label: "Supporter Logos"
         name: "logos"
         file: "data/en/suppoer-logos.yml"
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - name: items
-        label: Supporter
-        widget: list
         fields:
-          - { label: "name", name: "name", widget: "string" }
-          - { label: "logo", name: "logo", widget: "image" }
+          - { label: "Title", name: "title", widget: "string" }
+          - name: items
+            label: Supporter
+            widget: list
+            fields:
+              - { label: "name", name: "name", widget: "string" }
+              - { label: "logo", name: "logo", widget: "image" }
