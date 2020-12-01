@@ -22,7 +22,7 @@ collections:
     files:
       - label: "Supporter Logos"
         name: "logos"
-        file: "data/en/supporter-logos.yml"
+        file: "data/en/supporters.yml"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - name: stuff
