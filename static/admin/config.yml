@@ -16,3 +16,17 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "supporters"
+    label: "Supporters"
+    create: true
+    folder: "content/english/supporters"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - name: items
+        label: Supporter
+        widget: list
+        fields:
+          - { label: "name", name: "name", widget: "string" }
+          - { label: "logo", name: "logo", widget: "image" }
