@@ -19,7 +19,10 @@ collections:
   - name: "supporters"
     label: "Supporters"
     create: true
-    folder: "content/english/supporters"
+    files:
+      - label: "Supporter Logos"
+        name: "logos"
+        file: "data/en/suppoer-logos.yml"
     editor:
       preview: false
     fields:
