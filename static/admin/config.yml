@@ -22,10 +22,10 @@ collections:
     files:
       - label: "Supporter Logos"
         name: "logos"
-        file: "data/en/suppoer-logos.yml"
+        file: "data/en/supporter-logos.yml"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - name: items
+          - name: stuff
             label: Supporter
             widget: list
             fields:
