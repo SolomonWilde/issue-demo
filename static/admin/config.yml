@@ -22,12 +22,12 @@ collections:
       - label: "Supporter Logos"
         name: "logos"
         file: "data/en/supporters.yml"
+        editor:
+          preview: false
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - name: items
             label: Supporter
-            editor:
-              preview: false
             widget: list
             fields:
               - { label: "Name", name: "name", widget: "string" }
