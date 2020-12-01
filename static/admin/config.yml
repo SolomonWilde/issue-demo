@@ -18,14 +18,13 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "supporters"
     label: "Supporters"
-    create: true
     files:
       - label: "Supporter Logos"
         name: "logos"
         file: "data/en/supporters.yml"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - name: stuff
+          - name: items
             label: Supporter
             widget: list
             fields:
