@@ -6,3 +6,6 @@ items:
   - name: Battersea Power Station Foundation
     url: http://bpsfoundation.org.uk/
     logo: /images/battersea_ps_foundation.png
+  - name: McDonalds
+    logo: /images/sup_logo2.png
+    url: " "
